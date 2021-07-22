@@ -1,4 +1,4 @@
-function factorial(n){
+function fibonacci(n){
     var fact = 1;
     for (var i = 1; i<=n; i++) {
         fact = fact * i;
@@ -6,5 +6,5 @@ function factorial(n){
     return fact;
 }
 
-var result = factorial(5);
+var result = fibonacci(5);
 console.log(result);

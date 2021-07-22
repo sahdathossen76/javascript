@@ -1,5 +1,5 @@
 
-function factorial(n){
+function fibonacci(n){
     var i = 1;
     var fact = 1;
     while (i <= n){
@@ -11,7 +11,7 @@ function factorial(n){
 }
 // console.log(i, factorial);
 
-var result =factorial(6);
+var result =fibonacci(6);
 console.log(result);
 
 
